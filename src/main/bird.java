@@ -1,9 +1,11 @@
-package birds;
+package main;
 
-
-protected class Bird{
+public abstract class Bird extends Animal{
   Super();
-  fly;
-  lungs;
-  eggs;
+  private String fly;
+  private String lungs;
+  private String eggs;
+  void fly();
+  void lungs();
+  void eggs();
 }
